@@ -1,17 +1,11 @@
-<img src="https://github.com/SYacuCLoud/Readme-Template/assets/4344575/1eb2b764-a426-4792-a08c-9589fc58e9a7" width="400">
-<img src="https://github.com/SYacuCLoud/Readme-Template/assets/4344575/09eff249-5268-4599-bf5c-0db5f9df2f06" width="400">
-<h1 align="center">
-  README.md 간단한 예제 템플릿입니다
+<img src="https://github.com/user-attachments/assets/877ffe5e-d78b-44b2-a2ff-9b0455cb0bf6" width="400">
+
+<h1 align="맛GPT">
+ 맛GPT(맛집 홈페이지 소개 사이트)
 </h1>
-<p align="center">간단한 소개글을 적어주세요</p>
-<p align="center">직접 마크업(HTML 사용가능), 마크다운을 작성하거나</p>
-<p align="center">(1. Github 활용 2. VS Code와 preview 확장 활용)</p>
-<br>
-<p align="center">또는 생성기를 활용한 방법도 있답니다 =>
-  <a href="https://github.com/kefranabg/readme-md-generator">생성기로 이동 (npm 필요)</a>
-</p>
-<br>
-<p align="center">다음은 컨텐츠 예시입니다. 너무 많은 내용은 읽기 어렵습니다. 필요한 부분만을 사용하세요.</p>
+<p align="center">기본적인 맛집 소개 사이트 기능과</p>
+<p align="center">인원수에 따른 예산 조정 검색,</p>
+<p align="center">목적에 맞는 식당 추천 기능을 극대화한 웹 기반 프로젝트</p>
 
 ---
 
