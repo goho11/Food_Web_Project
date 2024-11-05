@@ -32,8 +32,16 @@
 JSP와 서블릿 이용한 동적 웹 페이지 구현, 카카오 맵 API을 이용한 위치 정보 제공,   
 Git을 통해 효율적인 협업 및 버전 관리 진행
 
-## 핵심 기능
-[Cafeteria](https://github.com/goho11/Food_Web_Project/tree/master/src/main/java/cafeteria)
+## 주요 핵심 기능
+- 로그인 및 사업자 등록
+- 가게 상세
+- 검색 기능
+- 관리자
+
+
+
+## 주요 핵심 기능 소개
+Cafeteria
 - 가게 부분의 기능과 DB연결 관리
 - Mapper와 ServiceImpl 클래스를 통해 MySQL과 연결하여 DB와 연동 및 SQL문을 처리하고 가게 정보들을 불러오거나 저장
 
