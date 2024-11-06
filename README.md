@@ -139,4 +139,4 @@ EnjoyFood_Project/
 ```
 
 ## Authors
-GitHub [@goho11 깃허브 이동](https://github.com/goho11)
+GitHub [@goho11](https://github.com/goho11)
