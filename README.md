@@ -33,10 +33,65 @@ JSP와 서블릿 이용한 동적 웹 페이지 구현, 카카오 맵 API을 이
 Git을 통해 효율적인 협업 및 버전 관리 진행
 
 ## 주요 핵심 기능
-- 로그인 및 사업자 등록
-- 가게 상세
-- 검색 기능
-- 관리자
+### 사용자 등록
+- 로그인/회원가입/아이디 찾기/비밀번호 찾기
+<img src="https://github.com/user-attachments/assets/463c2861-6bb6-46a1-9405-ad274c746380" width="49%" height="49%">
+<img src="https://github.com/user-attachments/assets/30d3779c-0647-4b79-b7bd-b265bcb41439" width="49%" height="49%">
+<img src="https://github.com/user-attachments/assets/afd2361a-589e-4b55-b477-d3c5366aa7f0" width="49%" height="49%">
+<img src="https://github.com/user-attachments/assets/6237c17a-3e06-4601-8060-a5bfeb559d3f" width="49%" height="49%"> 
+- 회원 정보 수정
+<img src="https://github.com/user-attachments/assets/e4df65a1-481f-49ef-8b80-b63667d109a0">
+
+### 사업자
+- 가게/메뉴 추가
+<img src="https://github.com/user-attachments/assets/03d10a42-fd51-4b53-ac91-8b4cf377f427" width="49%" height="49%">
+<img src="https://github.com/user-attachments/assets/e0dd8302-1237-44f0-a996-02cf297a0514" width="49%" height="49%">
+
+### 검색 기능
+- 키워드 검색
+<img src="https://github.com/user-attachments/assets/20863c2a-9047-44a7-987f-41d5c1ed13d8">   
+<img src="https://github.com/user-attachments/assets/abce46c7-1c8b-493a-be90-7258d9cd38a2">   
+<img src="https://github.com/user-attachments/assets/b20e15a2-18c9-44f5-bf23-ec4ff9072bbd">   
+<img src="https://github.com/user-attachments/assets/3c7eed6c-d198-4393-999b-772a78908653">
+
+### 관리자
+- 사용자 관리
+<img src="https://github.com/user-attachments/assets/36e7d42f-5e93-40d6-ae27-69b6246f70ca">
+- 건의 사항 관리
+<img src="https://github.com/user-attachments/assets/c5bab4ae-d2bd-4cec-9a10-5f8d5e74505f">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------
+
+## 진행과정
+![image](https://github.com/user-attachments/assets/65e92979-68e1-433b-944a-6f83f4c8e393)
+프로젝트 구조
+
+이 웹 어플리케이션은 Maven을 기반으로 구성되었으며, 서블릿과 JSP를 활용하여 동적인 웹사이트를 구현
+다양한 라이브러리(JSTL, DBCP2, Lombok, MyBatis, JSON 등)를 통해 기능을 확장하고 데이터 처리를 최적화. 특히, MyBatis를 사용하여 SQL 쿼리와 객체 지향 프로그래밍의 통합을 용이하게 하였고, DBCP2를 통해 데이터베이스 연결 풀링을 적용하여 성능 개선
+본 프로젝트는 팀 프로젝트로 진행되었으며, 각 팀원들은 맡은 역할에 따라 분담하여 효율적인 작업 분배와 전문성 확보
+개발 과정
+
+초기 단계에서는 홈페이지의 기본 기능을 설계하였고, 이를 바탕으로 유스케이스 다이어그램과 데이터베이스 스키마를 작성하여 사용자 요구사항을 명확히 반영할 수 있도록 준비
+Git을 통해 지속적인 병합 및 역할 분담을 관리하며, 코드 변경 사항을 체계적으로 관리하여 팀원 간의 원활한 협업 진행
+예외 처리 및 유효성 검사를 철저히 실시하여 최대한 오류를 줄이는 데 집중하였음
+
+
+
+---------------------
 
 
 
@@ -78,7 +133,6 @@ AdminServlet
 - 관리자가 가입된 사용자들의 정보와 사업자등록증 등 확인 및 제재 가능
 - DB에서 사용자 리스트를 조회하여 가져오며, 사업주의 경우 사업자등록증 확인 가능
 - 아이디별로 활성화/비활성화 가능
-
 
 ## Repository 구조
 ```sh
